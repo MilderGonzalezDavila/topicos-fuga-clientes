@@ -21,10 +21,10 @@ topicos-deteccion-diabetes/
 │
 ├── 📁 datalake/                    # Datos fuente de ejemplo
 │    ├── 📁 data/                    # Datos fuente de ejemplo
-│    │  └── Electric_Vehicle.csv              # Catálogo de empresas (pipe-delimited)
+│    │  └── fuga_clientes.csv              # Catálogo de empresas (pipe-delimited)
 │    │
 │    ├── 📁 dataset/                    # Datos fuente de ejemplo
-│    │   └── Electric_Vehicle.data              # Catálogo de empresas (pipe-delimited)
+│    │   └── fuga_clientes.data              # Catálogo de empresas (pipe-delimited)
 │    │
 │    ├── 📁 procesos/                   # Scripts PySpark del pipeline
 │    │   ├── poblar_capa_workload.py   # ▶️ Ingesta: CSV → Hive TEXTFILE
